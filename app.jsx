@@ -34,7 +34,7 @@ import {
 import options from './data/options.json';
 
 const API = (
-  import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'
+  import.meta.env.VITE_API_BASE_URL || 'https://laptopwise-tiav.onrender.com'
 ).replace(/\/$/, '');
 
 /* =========================
