@@ -31,7 +31,7 @@ import {
   XAxis,
   YAxis
 } from 'recharts';
-import options from './data/options.json';
+import options from './options.json';
 
 const API = (
   import.meta.env.VITE_API_BASE_URL || 'https://laptopwise-tiav.onrender.com'
