@@ -27,7 +27,7 @@ except Exception as exc:
 
 app = FastAPI(title="Laptop Price Prediction AI API", version="1.0.0",
               description="Predict laptop prices using the supplied fitted model.")
-origins = [x.strip() for x in os.getenv("FRONTEND_ORIGINS", "http://localhost:5173").split(",") if x.strip()]
+origins = [x.strip() for x in os.getenv("FRONTEND_ORIGINS", "http://localhost:5173,https://laptopwise.mhabibulie02.workers.dev").split(",") if x.strip()]
 app.add_middleware(CORSMiddleware, allow_origins=origins, allow_credentials=False,
                    allow_methods=["GET", "POST", "OPTIONS"], allow_headers=["Content-Type"])
 
