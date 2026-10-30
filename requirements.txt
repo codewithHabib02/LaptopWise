@@ -7,3 +7,4 @@ scikit-learn==1.6.1
 catboost
 python-dotenv==1.0.1
 turso_serverless
+imbalanced-learn==0.14.0
